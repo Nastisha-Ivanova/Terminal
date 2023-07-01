@@ -1,13 +1,8 @@
 pwd
 mkdir terminal_commands
-ls -la
 cd terminal_commands/
 mkdir folder_1 folder_2 folder_3
-cd folder_2
-cd
-ls -la
-pwd
-[A[C[C[A[C[C[C[A[C[A[C[C[C[C[C[C[C[C[C[C[1
+cd folder_1
 touch file_1.txt file_2.txt file_3.txt file_j1.json file_j2.json
 mkdir folder_one folder_two folder_three
 ls -la
@@ -26,3 +21,4 @@ tail -n 3 folder_two/file_1.txt
 less file_1.txt
 less folder_two/file_1.txt
 date
+history >> commands.txt
