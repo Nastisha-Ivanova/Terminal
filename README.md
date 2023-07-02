@@ -31,7 +31,7 @@
 target_folder="/d/Software Testing"
 cd "$target_folder"
 if [ $? -eq 0 ]; then
-        echo "Успешно созданы папки: folder1, folder2, folder3"
+                echo "Успешно созданы папки: folder1, folder2, folder3"
 	else
 		echo "Не удалось создать папки"
 	fi
